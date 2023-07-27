@@ -1,0 +1,129 @@
+body {
+  color: #ffffff;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  font-family: cursive, sans-serif;
+}
+.para{
+  font-size: 20px;
+  font-style: italic;
+}
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 30%; /* adjust as needed */
+		height: auto; /* maintains aspect ratio */
+  }
+  
+  body {
+    background-color: #041b49;
+  }
+
+  #reload-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 500px;
+    right: 100px;
+    width: 100px;
+    height: 50px;
+  }
+
+  
+  #reload-btn:hover {
+    background-color: #3e8e41;
+  }
+
+  .content {
+    visibility: hidden;
+  }
+  
+  /* Loading */
+  .loading-container {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .loading-image {
+    width: 350px;
+  }
+
+  /* Loading circle */
+  .loading-circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #555;
+    border-top-color: #f2f2f2;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  /* Loading text */
+  .loading-text {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: cursive, sans-serif;
+    font-weight: italic;
+  }
+  
+  .press1{
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 450px;
+    height: auto;
+  }
+
+  .knee1{
+    position: relative;
+    top: auto;
+    width: 450px;
+    height: 275px;
+  }
+
+  .ankle1{
+    position: relative;
+    top: auto;
+    width: 450px;
+    height: 275px;
+  }
+
+  .press1{
+    position: relative;
+    top: auto;
+    width: 450px;
+    height: 275px;
+  }
+
+  .quad1{
+    position: relative;
+    top: auto;
+    width: 450px;
+    height: 275px;
+  }
+
+  /* Loading circle animation */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

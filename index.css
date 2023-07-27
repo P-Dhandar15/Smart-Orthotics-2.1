@@ -1,0 +1,131 @@
+body {
+    color: #ffffff;
+  }
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  p {
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive, sans-serif;
+    font-style: italic;
+  }
+  .para{
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+    font-style: normal;
+  }
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 30%; /* adjust as needed */
+      height: auto; /* maintains aspect ratio */
+    }
+    
+    body {
+      background-color: #041b49;
+    }
+  
+.login-form {
+	margin: 50px auto;
+	padding: 20px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	width: 400px;
+    /* height: 350px; */
+    position: absolute;
+    top: 250px;
+    left : 550px;
+
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+    color: #041b49;
+    font-family: cursive, sans-serif;
+}
+
+input[type="text"], input[type="password"], button {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	width: 100%;
+}
+
+button {
+	background-color: #3F51B5;
+	color: #FFF;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #283593;
+}
+
+#error {
+	color: red;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.credentials {
+	margin: 30px auto;
+	padding: 20px;
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	width: 400px;
+}
+
+
+
+p {
+	margin-bottom: 10px;
+}
+
+strong {
+	margin-right: 10px;
+}
+
+.login-image {
+    width: 300px;
+    height : 350px;
+    position: absolute;
+    top: 280px;
+    right: 130px;
+}
+
+.button {
+
+    background-color: #4540c7;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 320px;
+    left: 150px;
+    width: 150px;
+    height: 70px;
+    font-family: cursive, sans-serif;
+}
+.button:hover {
+    background-color: #005983;
+}
+
+iframe{
+    position: absolute;
+    top: 307px;
+    left: 50px;
+}

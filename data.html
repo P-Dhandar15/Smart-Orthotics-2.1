@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="datastyle.css">
+    <script src="datascript.js"></script>
+</head>
+<body>
+    <h1 >Orthotic Leg Metrics</h1>
+    <p class="para">IoT based solution to record the metrics of Orthotic Leg for Orthotist</p>
+
+    
+    <!-- Loading Design -->
+    <div class="loading-container">
+		<div class="loading-circle"></div>
+		<div class="loading-text">Loading...</div>
+        <img src="man running 3.jpeg" class="loading-image">
+	</div>
+
+    <!-- Content -->
+
+    <div class="content">
+
+        <img src="joint-pain.jpg" alt="running leg">
+
+        <button onclick="reloadPage()" ; id="reload-btn">Fetch Data</button>
+        <button onclick="analysis()" ; id="analysis-btn">Analysis</button>
+
+
+        <table align = "center" cellspacing=100>
+            <tr>
+                <td>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2228900/widgets/690656"></iframe>
+                    <p>Knee rotation position</p>
+                </td>
+                <td>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2228900/widgets/690657"></iframe>
+                    <p>Ankle rotation position</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2228900/widgets/690658"></iframe>
+                    <p>Pressure Sensor 1</p>
+                </td>
+                <td>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2228900/widgets/690659"></iframe>
+                    <p>Pressure Sensor 2</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="centered-cell">
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2228900/widgets/690660"></iframe>
+                    <p>Pressur Sensor 3</p>   
+                </td>
+            </tr>
+
+        </table> 
+
+        
+    </div>
+
+</body>
+</html>
